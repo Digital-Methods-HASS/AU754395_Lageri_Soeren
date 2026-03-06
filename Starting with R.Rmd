@@ -83,6 +83,7 @@ interviews <- read_csv(
   na = "NULL")
 
 ```
-Link to the screenshot of Rstudio: https://github.com/Lageri01/AU754395_Lageri_Soeren/blob/6b1a1a9b6e44ce41573dba23cca69de4bf7b796e/R%20studio%20screenshot.png
+Link to the screenshot of Rstudio: https://github.com/Digital-Methods-HASS/AU754395_Lageri_Soeren/blob/a27e002e81bf1f5f337553d416534b17851e7d8b/Rstudio%20Screenshot.png
+
 
 ![Screenshot of Rstudio](C:/Users/sl200\OneDrive - Aarhus universitet/6. semester/Digitale arkiver og metoder/DAM - R/figures/Rstudio Screenshot.png)
