@@ -7,7 +7,7 @@ output:
   pdf_document: default
 ---
 
-##### Link to GitHub repository: https://github.com/Digital-Methods-HASS/AU754395_Lageri_Soeren
+##### Link to GitHub repository: https://github.com/Digital-Methods-HASS/AU754395_Lageri_Soeren/tree/main/week11
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -158,7 +158,7 @@ Do you remember how to calculate an average on a vector object? If not, review t
 Average_reign_duration_baseR <- 
   mean(as.numeric(Reign_duration$Reign_duration),na.rm = TRUE)
 
-cat("Base-R mean:",round(Average_reign_duration_baseR,digits=1),"\n") # We round it to one digit.
+cat("Base-R mean:",round(Average_reign_duration_baseR,digits=1),"years") # We round it to one digit.
  # cat functions do not work with pipes, so we type it separately
 ```
 
@@ -259,6 +259,9 @@ ggplot(midyear_Reign, aes(x=midyear,y=Reign_duration)) +
   ) +
   theme_bw() +
   theme(text = element_text(size = 14))
+
+ggsave("Duration of Danish Monarchs' Reigns Through Time.png" , width=14, height = 10, dpi=100)
+
 ```
 
 And to submit this rmarkdown, knit it into html. But first, clean up the code chunks, adjust the date, rename the author and change the `eval=FALSE` flag to `eval=TRUE` so your script actually generates an output.
